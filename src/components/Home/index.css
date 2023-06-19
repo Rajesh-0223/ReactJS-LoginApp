@@ -1,0 +1,22 @@
+/* Write your CSS here */
+.bg-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to bottom, #2b2c49, #b5b9ff);
+  height: 450px;
+  width: 500px;
+  border-radius: 15px;
+}
+@media screen and (max-width: 576px) {
+  .home-container {
+    width: 100vw;
+  }
+}
